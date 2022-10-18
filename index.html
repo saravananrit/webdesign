@@ -1,0 +1,300 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITvedant</title>
+</head>
+<body>
+    <h1>HTML Introduction ✔</h1>
+    <hr style="border-style:double">
+    <dl>
+        <dt style="background-color:beige; font-size:40px;">Headers &Rrightarrow;</dt>
+        <dd><h1>Header1</h1></dd>
+        <dd><h2>Header2</h2></dd>
+        <dd><h3>Header3</h3></dd>
+        <dd><h4>Header4</h4></dd>
+        <dd><h5>Header5</h5></dd>
+        <dd><h6>Header6</h6></dd>
+    </dl>
+<hr style="border-style: solid;">
+    <h1 style="background-color:beige ;">Paragraph Tag🅿</h1>
+    <p>This is a paragraph</p>
+    <p>This is another paragraph</p>
+    <hr style="border-style: solid;">
+    <h1 style="background-color:beige ;">Anchor Tag ⚓</h1> 
+    <p><a href="https://www.itvedant.com">This is a link</a></p>
+    <hr style="border-style: solid;">
+    <h1 style="background-color:beige ;">HTML Images🖼</h1>
+    <img src="https://www.itvedant.com/images/logo.svg" alt="itvedant.com" width="154" height="192"> 
+    <h1 style="background-color:beige ;">HTML Elements&rarrw;</h1>
+    <hr style="border-style: solid;">
+    The HTML element is everything from the start tag to the end tag:
+<br>
+    <tagname>"Content goes here..."</tagname>
+    <hr style="border-style: solid;">
+    <h1 style="background-color:beige ;">HTML Structures📑</h1>
+    <ul style="list-style-type:disc;">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>JQuery</li>
+    </ul>
+  <ol type="1" start="">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>JQuery</li>
+    </ol>
+  <dl>
+        <dt>JQuery</dt>
+        <dd>JQuery is fast, small, featured rich Javascript Library</dd>    
+        <dt>Python</dt>
+        <dd>Python is general purpose, highlevel language, 
+            object oriented programming language.
+        </dd>
+    </dl>
+    <table border="1" width="500" align="center" cellspacing="5" 
+cellpadding="0">
+<thead>
+<tr>
+<th>Id</th>
+<th>Username</th>
+<th>Password</th>
+<th>Contact</th>
+</tr>
+</thead>
+<tbody align="center">
+    <tr>
+    <td>1</td>
+    <td>Ramesh</td>
+    <td>Ram123@</td>
+    <td>898999988</td>
+    </tr>
+    <tr>
+    <td>2</td>
+    <td>Sunil</td>
+    <td>Sun123@</td>
+    <td>7778887776</td>
+    </tr>
+    </tbody>
+    </table>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        </style>
+        <br>
+    <table align = "center" style="width:50%">
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Age</th>
+        </tr>
+        <tbody align="center">
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+    </tbody>
+      </table>
+      <style>
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style><br><br>
+      <table align="center" style="width:50%">
+        <tr>
+          <th>Name</th>
+          <td align="center">Jill</td>
+        </tr>
+        <tr align="center">
+          <th rowspan="2">Phone</th>
+          <td align="center">555-1234</td>
+        </tr>
+        <tr>
+          <td align="center">555-8745</td>
+        </tr>
+      </table>
+      <br><br>
+      <style>
+        form{
+            background-color:lightgoldenrodyellow;
+        }
+      </style>
+      <form action="welcome.php" method="post">
+        Name: <input type="text" name="name"><br>
+        E-mail: <input type="text" name="email"><br>
+        <input type="submit">
+        </form>
+
+        <br><br>
+        <h2>Radio Buttons</h2>
+
+<p>Choose your favorite Web language:</p>
+
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form> 
+<br>
+<h2>Checkboxes</h2>
+<p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<input type="button" onclick="alert('Hello World!')" value="Click Me!">
+<br><br>
+<form>
+    <h2>Quantity (between 1 and 5):</h2>
+    <input type="number" name="quantity" min="1" max="5">
+  </form>
+  <br><br>
+  <h2>Range from 0 to 10</h2>
+  <form>
+    <input type="range" name="points" min="0" max="10">
+  </form>
+
+  <br><br>
+  <h2>Selecting Color</h2>
+  <form>
+    Select your favorite color:
+    <input type="color" name="favcolor">
+  </form>
+
+  <br>
+  <h2>Restrict the date</h2>
+  <form>
+    Enter a date before 1980-01-01:
+    <input type="date" name="bday" max="1979-12-31"><br>
+    Enter a date after 2000-01-01:
+    <input type="date" name="bday" min="2000-01-02"><br>
+  </form>
+  <br><br>
+  <textarea rows="4" cols="50">
+    at itvedant.com you can learn web designing
+    </textarea>
+    
+  <br><br>
+  <h2>DataList</h2>
+  <input list="browsers">
+
+
+<datalist id="browsers">
+  <option value="Internet Explorer">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+<br><br>
+  <h2>Validation</h2>
+  Username: <input type="text" name="usrname" required>
+<br><br>
+<h2>FieldSet</h2>
+<form>
+    <fieldset>
+      <legend>Personalia:</legend>
+      Name: <input type="text"><br>
+      Email: <input type="text"><br>
+      Date of birth: <input type="text">
+    </fieldset>
+  </form><br><br>
+  <fieldset>
+    <legend>Personalia:</legend>
+    Name: <input type="text" size="30"><br>
+    Email: <input type="text" size="30"><br>
+    Date of birth: <input type="text" size="10">
+  </fieldset>
+  
+  <br><br><br>
+  <hr style="border-style: solid;">
+  <h1 style="background-color:beige ;">HTML5 🎍</h1>
+<h2>Nav</h2>
+  <nav>
+    <a href="#">HTML</a> |
+    <a href="#">CSS</a> |
+    <a href="#">JavaScript</a> |
+    <a href="#">JQuery</a>
+  </nav>
+  <br><br>
+  <h2>Summary</h2>
+
+  <details>
+    <summary>Epcot Center</summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </details>
+
+  <br><br>
+  <h2>Audio </h2>
+  <audio controls autoplay muted>
+    <source src="sample_a.mp3" type="audio/mp3"/>
+    Audio is not supported
+    </audio>
+<br><br>
+<h2>Video</h2>    
+<video controls width="300" height="200" loop autoplay muted>
+  <source src="sample_v.mp4" type="video/mp4"/>
+  </video>
+<br><br>
+<h2>Video Poster</h2>  
+<video controls width="300" height="200" poster="server.png">
+  <source src="sample_v.mp4" type="video/mp4"/>
+  </video>
+  <br><br>
+  <h2>SVG Circle</h2>
+  <svg width="200" height="200" style="border:green solid">
+    <circle cx="100" cy="100" r=80 fill="yellow" stroke="red"
+    stroke-width="4"></circle>
+    </svg><br><br>
+    <h2>SVG Rectangle</h2>
+    <svg width="300" height="150" style="border:green solid">
+      <rect width="150" height="80" x="70" y="40" rx="10" ry="10" fill="yellow" stroke="red" stroke-width="5"></rect>
+      </svg>
+      <h2>SVG Line</h2>
+      <svg width="200" height="200">
+        <line x1="20" y1="50" x2="180" y2="180" stroke="red" stroke-width="4"></line>
+        </svg>
+<br>
+<h2>SVG Cross Line</h2>        
+<svg width="200" height="200">
+  <line x1="0" y1="0" x2="180" y2="180" stroke="black" stroke-width="4"></line>
+  <line x1="180" y1="0" x2="0" y2="180" stroke="black" stroke-width="4"></line>
+  </svg>
+  <h2>SVG Triangle</h2>
+  <svg height="210" width="400">
+    <path d="M150 0 L75 200 L225 200 Z"/>
+    </svg>
+    <h2>SVG Polygon</h2>
+    <svg width="300" height="300">
+      <path d="M150,20 L270,130 L220,280 L80,280 L30,130 Z" fill="yellow" stroke="red" stroke-width="4"></path>
+      </svg>
+      
+    
+</body>
+    </html> 
+    
+
+
+
+</body>
+</html>
