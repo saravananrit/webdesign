@@ -1,29 +1,27 @@
-<!DOCTYPE html>
 <html>
+<head>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+ $(function(){
+  $('.bxslider').bxSlider({
+    mode: 'fade',
+    captions: true,
+    slideWidth: 600
+  });
+});
+  </script>
+
+</head>
 <body>
 
-<h1>My First JavaScript</h1>
-<p>Here, a JavaScript changes the value of the src (source) attribute of an image.</p>
-
-<script>
-function light(sw) {
-  var pic;
-  if (sw == 0) {
-    pic = "https://www.w3schools.com/html/pic_bulboff.gif"
-  } else {
-    pic = "https://www.w3schools.com/html/pic_bulbon.gif"
-  }
-  document.getElementById('myImage').src = pic;
-}
-</script>
-
-<img id="myImage" src="https://www.w3schools.com/html/pic_bulboff.gif" width="100" height="180">
-
-<p>
-<button type="button" onclick="light(1)">Light On</button>
-<button type="button" onclick="light(0)">Light Off</button>
-</p>
-  <a href="header.html">Header</a>
+  <div class="bxslider">
+  <div><img src="coffee1.jpg" title="Funky roots"></div>
+  <div><img src="coffee2.jpg" title="The long and winding road"></div>
+  <div><img src="coffee3.jpg" title="Happy trees"></div>
+</div>
 </body>
 </html>
-
